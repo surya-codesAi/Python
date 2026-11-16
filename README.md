@@ -54,4 +54,15 @@ World"""      → multi-line string
 
 Implicit conversion → Python does it automatically.adding int and float will come as float
 Explicit conversion → You tell Python to do it.age = "20" age = int(age)
+For a string with length n:
+rule is 
+First index = 0
+Last index = n - 1
+Positive indexing helps you find things from the beginning.
+Negative indexing helps you find things from the end.
+name[-1] means "Give me the character 1 position back from the end."
+Indexing → gets one character but Slicing → gets multiple characters
+[start : stop] → important rule  start is included, stop is excluded.
+name[:] Start from the beginning and go until the end.
+name[2:],name[:5],"I want a range of characters."And whichever side is empty, Python uses the beginning or end automatically.
 
